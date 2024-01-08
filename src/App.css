@@ -1,0 +1,225 @@
+body {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .todocls.doingCls.diffCls.clsoecls {
+    max-width: calc(50% - 16px);
+    margin: 8px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .todocls.doingCls.diffCls.clsoecls {
+    max-width: 100%;
+    margin: 8px;
+  }
+
+  .card-container {
+    padding: 5px;
+  }
+}
+
+.mainCls {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.divCls {
+  padding-bottom: 20px;
+}
+
+.exportButton {
+  background-color: rgb(2, 180, 250);
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  border: none;
+  color: white;
+  margin-left: 1100px;
+}
+
+@media (max-width: 768px) {
+  .mainCls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .exportButton {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+
+.spanCls {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.todocls {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgba(3, 12, 0, 0.879);
+  color: white;
+  height: fit-content;
+
+}
+
+.clsoecls {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgba(3, 12, 0, 0.879);
+  color: white;
+
+}
+
+.diffCls {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  background-color: rgba(3, 12, 0, 0.879);
+  color: white;
+  height: fit-content;
+}
+
+.doingCls {
+  width: 100%;
+  max-width: 500px;
+  margin: 15px;
+  border-radius: 8px;
+  color: white;
+  height: fit-content;
+  background-color: rgba(3, 12, 0, 0.879);
+}
+
+.clsoecls {
+  height: fit-content;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #232427;
+}
+
+.myCls1 {
+  flex: 1;
+  overflow: hidden;
+  transition: flex 0.5s ease;
+}
+
+/* .mainCls {
+  padding: 20px;
+  background-color: black;
+  color: white;
+} */
+
+.titleCls {
+  padding: 10px;
+}
+
+.inputCls {
+  width: 75%;
+  height: 15px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.btnCls {
+  background-color: rgb(2, 180, 250);
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 1%;
+  width: 18%;
+  color: white;
+}
+
+.inputCls1 {
+  height: 15px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #232427;
+  border: none;
+  color: white;
+  padding: 10px
+    /* max-width: 100px; */
+  ;
+}
+
+.divCls1 {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.taskContainer {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.editBtn,
+.deleteBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.editBtn {
+  right: 40px;
+}
+
+
+.spnCls1 {
+  margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+  .spnCls1 {
+    margin-left: 10px;
+  }
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputCls1 {
+  padding-right: 5px;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  /* Adjust as needed */
+  display: flex;
+}
+
+.imgCls {
+  cursor: pointer;
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
+}
